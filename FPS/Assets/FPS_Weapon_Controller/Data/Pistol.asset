@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f54ae3b37e03a8409695822e617004d, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  name: Pistol
+  damage: 10
+  maxDistance: 100
+  fireRate: 500
+  bulletsPerTap: 1
+  isAuto: 0
+  magazineSize: 20
+  maximumAdditionalAmmo: 120
+  reloadTime: 3
+  defautPosition: {x: 0.25, y: 0.05, z: 0.1}
+  aimPosition: {x: 0, y: 0.167, z: 0}
+  raycastRecoil: 0.1
+  reducedRaycastRecoilAiming: 5
+  recoilRotation: {x: 1, y: 0.5, z: 0.5}
+  recoilPosition: {x: 0.05, y: 0, z: -0.4}
+  reducedRecoilAiming: 5
+  shootClip: {fileID: 8300000, guid: 852ed55842f84934dbc8340a5cf032de, type: 3}
+  reloadClip: {fileID: 8300000, guid: 7296560670bbdaa43a7da8426dc97ab8, type: 3}
